@@ -1,11 +1,9 @@
 # 문제집 모음
 
-`![100%](https://progress-bar.xyz/{푼문제}/?scale={전체문제}&title=progress&width=500&color=babaca&suffix=/{전체문제})`
-
 ## solved.ac
 
-| 문제집                    | 진행도                                                                                         |
-| ------------------------- | ---------------------------------------------------------------------------------------------- |
+| 문제집                    | 진행도                                                                                             |
+| ------------------------- | -------------------------------------------------------------------------------------------------- |
 | [새싹](./새싹.md)         | ![100%](https://progress-bar.xyz/0/?scale=38&title=progress&width=500&color=babaca&suffix=/38) |
 | [class_01](./CLASS_01.md) | ![100%](https://progress-bar.xyz/0/?scale=36&title=progress&width=500&color=babaca&suffix=/36) |
 | [class_02](./CLASS_02.md) | ![100%](https://progress-bar.xyz/0/?scale=40&title=progress&width=500&color=babaca&suffix=/40) |
