@@ -3,9 +3,12 @@ name: Update Markdown Files
 on:
   push:
     paths:
-      - "백준/**/*.cpp"
-      - "백준/**/*.cs"
-      - "백준/**/*.md"
+      - "Baekjoon/**/*.cpp"
+      - "Baekjoon/**/*.cs"
+      - "Baekjoon/**/*.md"
+
+permissions:
+  contents: write # 리포지토리 내용 수정 권한
 
 jobs:
   update_md:
@@ -20,9 +23,11 @@ jobs:
       - name: Get added files
         id: added_files
         run: |
-          # 새로 추가된 파일들만 가져옵니다.
-          echo "ADDED_FILES=$(git diff --name-only --diff-filter=A ${{ github.event.before }} ${{ github.sha }} | tr '\n' ' ')" >> $GITHUB_ENV
-
+          # 전체 커밋 히스토리를 가져오기
+          git fetch --depth=2
+          # 새로 추가된 파일만 가져오기 (현재 커밋과 이전 커밋을 비교)
+          echo "ADDED_FILES=$(git diff --name-only --diff-filter=A HEAD~1 HEAD | tr '\n' ' ')" >> $GITHUB_ENV
+    
       # 3. Python 환경 설정
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -40,13 +45,15 @@ jobs:
         if: ${{ env.ADDED_FILES != '' }} # 새 파일이 있을 경우에만 실행
         run: |
           # Git 설정
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
+          git config --global user.name "githubAction"  # GitHub 사용자명
+          git config --global user.email "kirak0622@gmail.com"  # 본인의 GitHub 이메일
 
           # 변경된 내용이 있을 경우에만 커밋 및 푸시
-          git diff --exit-code || (
-            git add . && 
-            git commit -m "Update Markdown files after problem solved" && 
+          if [[ -n $(git status --porcelain) ]]; then
+            git add . 
+            git commit -m "[Bot]: Update Markdown files"
             git push
-          )
-        continue-on-error: true
+          else
+            echo "No changes to commit"
+          fi
+

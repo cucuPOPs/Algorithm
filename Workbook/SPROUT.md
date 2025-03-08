@@ -1,4 +1,4 @@
-# 새싹 - 38
+# SPROUT - 38
 
 ![100%](https://progress-bar.xyz/0/?scale=38&title=progress&width=500&color=babaca&suffix=/38)
 
