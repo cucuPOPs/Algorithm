@@ -1,4 +1,3 @@
-```C#
 class Program
 {
     private const int bufferSize = 131072;//131072=128KB. 경험적 가장빠른속도. 기본=4096=4KB.
@@ -6,19 +5,18 @@ class Program
     public static readonly StreamWriter sw = new(new BufferedStream(Console.OpenStandardOutput(), bufferSize));
     static void Main()
     {
+        int n = int.Parse(sr.ReadLine());
         string[] s = sr.ReadLine().Split();
-        int a = int.Parse(s[0]);
-        int b = int.Parse(s[1]);
 
-        long res = (long)b - a;
-        sw.WriteLine(res > 0 ? res : -res);
+        int min = int.MaxValue;
+        int max = int.MinValue;
+        for (int i = 0; i < n; i++)
+        {
+            int num = int.Parse(s[i]);
+            if (max < num) max = num;
+            if (min > num) min = num;
+        }
+        sw.WriteLine($"{min} {max}");
         sw.Flush();
     }
 }
-```
-
-a,b의 거리를 계산하는데, -20억 <= a,b <= 20억
-
-최악의경우 a가-20억, b가 20억일때, a와b의 거리는 int범위를 벗어난다.
-
-그래서, int 자료형보다 큰 long자료형을 사용하였다.
