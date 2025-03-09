@@ -1,15 +1,15 @@
 # SPROUT - 38
 
-![100%](https://progress-bar.xyz/0/?scale=38&title=progress&width=500&color=babaca&suffix=/38)
+![100%](https://progress-bar.xyz/7/?scale=38&title=progress&width=500&color=babaca&suffix=/38)
 
 | 문제번호 | 문제제목                                  | C++ | C#  | 회고 | 리마인드✔️❓ |
 | -------- | ----------------------------------------- | --- | --- | ---- | ------------ |
-| 2557     | [Hello World](https://boj.kr/2557)        |     |     |      |              |
-| 10699    | [오늘 날짜](https://boj.kr/10699)         |     |     |      |              |
-| 7287     | [등록](https://boj.kr/7287)               |     |     |      |              |
-| 10171    | [고양이](https://boj.kr/10171)            |     |     |      |              |
-| 10172    | [개](https://boj.kr/10172)                |     |     |      |              |
-| 25083    | [새싹](https://boj.kr/25083)              |     |     |      |              |
+| 2557     | [Hello World](https://boj.kr/2557)        | [Code](../Baekjoon/Bronze/2557.cpp) | [Code](../Baekjoon/Bronze/2557.cs) |      |              |
+| 10699    | [오늘 날짜](https://boj.kr/10699)         |     | [Code](../Baekjoon/Bronze/10699.cs) | [Memo](../Baekjoon/Bronze/10699.md) |              |
+| 7287     | [등록](https://boj.kr/7287)               |     | [Code](../Baekjoon/Bronze/7287.cs) |      |              |
+| 10171    | [고양이](https://boj.kr/10171)            |     | [Code](../Baekjoon/Bronze/10171.cs) |      |              |
+| 10172    | [개](https://boj.kr/10172)                |     | [Code](../Baekjoon/Bronze/10172.cs) |      |              |
+| 25083    | [새싹](https://boj.kr/25083)              |     | [Code](../Baekjoon/Bronze/25083.cs) |      |              |
 | 1000     | [A+B](https://boj.kr/1000)                |     |     |      |              |
 | 1001     | [A-B](https://boj.kr/1001)                |     |     |      |              |
 | 10998    | [A×B](https://boj.kr/10998)               |     |     |      |              |
@@ -28,7 +28,7 @@
 | 2739     | [구구단](https://boj.kr/2739)             |     |     |      |              |
 | 2438     | [별 찍기 - 1](https://boj.kr/2438)        |     |     |      |              |
 | 10951    | [A+B - 4](https://boj.kr/10951)           |     |     |      |              |
-| 15552    | [빠른 A+B](https://boj.kr/15552)          |     |     |      |              |
+| 15552    | [빠른 A+B](https://boj.kr/15552)          | [Code](../Baekjoon/Bronze/15552.cpp) | [Code](../Baekjoon/Bronze/15552.cs) | [Memo](../Baekjoon/Bronze/15552.md) |              |
 | 10871    | [X보다 작은 수](https://boj.kr/10871)     |     |     |      |              |
 | 10807    | [개수 세기](https://boj.kr/10807)         |     |     |      |              |
 | 5597     | [과제 안 내신 분..?](https://boj.kr/5597) |     |     |      |              |
