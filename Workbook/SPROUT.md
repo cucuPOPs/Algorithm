@@ -27,7 +27,7 @@
 | 10952    | [A+B - 5](https://boj.kr/10952)           |     |     |      |              |
 | 2739     | [구구단](https://boj.kr/2739)             |     |     |      |              |
 | 2438     | [별 찍기 - 1](https://boj.kr/2438)        |     |     |      |              |
-| 10951    | [A+B - 4](https://boj.kr/10951)           |     |     |      |              |
+| 10951    | [A+B - 4](https://boj.kr/10951)           |     |     |      |      ✔️        |
 | 15552    | [빠른 A+B](https://boj.kr/15552)          | [Code](../Baekjoon/Bronze/15552.cpp) | [Code](../Baekjoon/Bronze/15552.cs) | [Memo](../Baekjoon/Bronze/15552.md) |              |
 | 10871    | [X보다 작은 수](https://boj.kr/10871)     |     |     |      |              |
 | 10807    | [개수 세기](https://boj.kr/10807)         |     |     |      |              |
