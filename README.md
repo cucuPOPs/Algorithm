@@ -56,53 +56,7 @@
 6. 필요시, 회고록을 기록한다. ( ex. 내풀이와 다른접근법, )
 
 ## 코드템플릿
-빠른입출력을 위해, 아래코드를 기반으로 문제풀이를 시작.
-
-### 참고문서
- https://docs.google.com/document/d/17OUl9nU9i7vTkhk2q_qy4Q5Vl0HHE9bTLUHwbLp56WM
-
-### 15552번 빠른A+B.
-#### C++ 코드
-```C++
-#include <bits/stdc++.h>
-using namespace std;
-
-int main()
-{
-    cin.sync_with_stdio(false);
-    cin.tie(NULL);
-
-    int tc;
-    cin >> tc;
-    while(tc-- > 0)
-    {
-        int a, b;
-        cin >> a >> b;
-        cout << a + b << "\n";
-    }
-}
-```
-#### C# 코드
-```C#
-class Program
-{
-    private const int bufferSize = 131072;//131072=128KB. 경험적 가장빠른속도. 기본=4096=4KB.
-    public static readonly StreamReader sr = new(new BufferedStream(Console.OpenStandardInput(), bufferSize));
-    public static readonly StreamWriter sw = new(new BufferedStream(Console.OpenStandardOutput(), bufferSize));
-    static void Main()
-    {
-        int tc = int.Parse(sr.ReadLine());
-        while (tc-- > 0)
-        {
-            string[] s = sr.ReadLine().Split();
-            int a = int.Parse(s[0]);
-            int b = int.Parse(s[1]);
-            sw.WriteLine(a + b);
-        }
-        sw.Flush();
-    }
-}
-```
+빠른입출력을 위해, 15552번 코드를 기반으로 문제풀이를 시작. [링크](./Baekjoon/Bronze/15552.md)
 
 ## 개발환경
 VSCode에디터와, cph 확장을 사용해, 백준사이트의 문제를 푼다.
@@ -120,6 +74,7 @@ C++,  C#
 - Korean Language Pack for Visual Studio Code
 - Competitive Programming Helper(cph)
 - atom one dark theme
+- Prettier - Code formatter
 
 
 #### [C/C++] 확장 설정
