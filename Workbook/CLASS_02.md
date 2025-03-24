@@ -7,10 +7,10 @@
 | 1018     | [체스판 다시 칠하기](https://boj.kr/1018)      |     | [Code](../Baekjoon/Silver/1018.cs) |      |              |
 | 1181     | [단어 정렬](https://boj.kr/1181)               |     | [Code](../Baekjoon/Silver/1181.cs) |      |              |
 | 1259     | [팰린드롬수](https://boj.kr/1259)              |     | [Code](../Baekjoon/Bronze/1259.cs) |      |              |
-| 1436     | [영화감독 숌](https://boj.kr/1436)             |     | [Code](../Baekjoon/Silver/1436.cs) | [Memo](../Baekjoon/Silver/1436.md) |              |
+| 1436     | [영화감독 숌](https://boj.kr/1436)             |     | [Code](../Baekjoon/Silver/1436.cs) | [Memo](../Baekjoon/Silver/1436.md) |  ✔️            |
 | 1546     | [평균](https://boj.kr/1546)                    |     | [Code](../Baekjoon/Bronze/1546.cs) |      |              |
-| 1654     | [랜선 자르기](https://boj.kr/1654)             |     | [Code](../Baekjoon/Silver/1654.cs) |      |              |
-| 1676     | [팩토리얼 0의 개수](https://boj.kr/1676)       |     | [Code](../Baekjoon/Silver/1676.cs) | [Memo](../Baekjoon/Silver/1676.md) |              |
+| 1654     | [랜선 자르기](https://boj.kr/1654)             |     | [Code](../Baekjoon/Silver/1654.cs) |      | ❓             |
+| 1676     | [팩토리얼 0의 개수](https://boj.kr/1676)       |     | [Code](../Baekjoon/Silver/1676.cs) | [Memo](../Baekjoon/Silver/1676.md) | ✔️             |
 | 1874     | [스택 수열](https://boj.kr/1874)               |     | [Code](../Baekjoon/Silver/1874.cs) |      |              |
 | 1920     | [수 찾기](https://boj.kr/1920)                 |     | [Code](../Baekjoon/Silver/1920.cs) | [Memo](../Baekjoon/Silver/1920.md) |              |
 | 1929     | [소수 구하기](https://boj.kr/1929)             |     | [Code](../Baekjoon/Silver/1929.cs) | [Memo](../Baekjoon/Silver/1929.md) |              |
@@ -20,7 +20,7 @@
 | 2164     | [카드2](https://boj.kr/2164)                   |     | [Code](../Baekjoon/Silver/2164.cs) |      |              |
 | 2231     | [분해합](https://boj.kr/2231)                  |     | [Code](../Baekjoon/Bronze/2231.cs) |      |              |
 | 2292     | [벌집](https://boj.kr/2292)                    |     | [Code](../Baekjoon/Bronze/2292.cs) |      |              |
-| 2609     | [최대공약수와 최소공배수](https://boj.kr/2609) |     | [Code](../Baekjoon/Bronze/2609.cs) | [Memo](../Baekjoon/Bronze/2609.md) |              |
+| 2609     | [최대공약수와 최소공배수](https://boj.kr/2609) |     | [Code](../Baekjoon/Bronze/2609.cs) | [Memo](../Baekjoon/Bronze/2609.md) | ✔️             |
 | 2751     | [수 정렬하기 2](https://boj.kr/2751)           |     | [Code](../Baekjoon/Silver/2751.cs) |      |              |
 | 2775     | [부녀회장이 될테야](https://boj.kr/2775)       |     | [Code](../Baekjoon/Bronze/2775.cs) |      |              |
 | 2798     | [블랙잭](https://boj.kr/2798)                  |     | [Code](../Baekjoon/Bronze/2798.cs) |      |              |
@@ -36,11 +36,11 @@
 | 10828    | [스택](https://boj.kr/10828)                   |     | [Code](../Baekjoon/Silver/10828.cs) |      |              |
 | 10845    | [큐](https://boj.kr/10845)                     |     | [Code](../Baekjoon/Silver/10845.cs) |      |              |
 | 10989    | [수 정렬하기 3](https://boj.kr/10989)          |     | [Code](../Baekjoon/Bronze/10989.cs) |      |              |
-| 11050    | [이항 계수 1](https://boj.kr/11050)            |     | [Code](../Baekjoon/Bronze/11050.cs) | [Memo](../Baekjoon/Bronze/11050.md) |              |
+| 11050    | [이항 계수 1](https://boj.kr/11050)            |     | [Code](../Baekjoon/Bronze/11050.cs) | [Memo](../Baekjoon/Bronze/11050.md) | ✔️             |
 | 11650    | [좌표 정렬하기](https://boj.kr/11650)          |     | [Code](../Baekjoon/Silver/11650.cs) |      |              |
 | 11651    | [좌표 정렬하기 2](https://boj.kr/11651)        |     | [Code](../Baekjoon/Silver/11651.cs) |      |              |
 | 11866    | [요세푸스 문제 0](https://boj.kr/11866)        |     | [Code](../Baekjoon/Silver/11866.cs) |      |              |
 | 15829    | [Hashing](https://boj.kr/15829)                |     | [Code](../Baekjoon/Bronze/15829.cs) |      |              |
-| 18110    | [solved.ac](https://boj.kr/18110)              |     | [Code](../Baekjoon/Silver/18110.cs) | [Memo](../Baekjoon/Silver/18110.md) |              |
+| 18110    | [solved.ac](https://boj.kr/18110)              |     | [Code](../Baekjoon/Silver/18110.cs) | [Memo](../Baekjoon/Silver/18110.md) | ❓             |
 | 28702    | [FizzBuzz](https://boj.kr/28702)               |     | [Code](../Baekjoon/Bronze/28702.cs) |      |              |
 | 30802    | [웰컴 키트](https://boj.kr/30802)              |     | [Code](../Baekjoon/Bronze/30802.cs) |      |              |
