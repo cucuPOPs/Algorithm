@@ -20,7 +20,7 @@
 
 | 문제집                                            | 진행도                                                                                         |
 | ------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| [기초코드 작성요령](./BARKINGDOG_02.md)            | ![100%](https://progress-bar.xyz/0/?scale=27&title=progress&width=500&color=babaca&suffix=/27) |
+| [기초코드 작성요령](./BARKINGDOG_02.md)            | ![100%](https://progress-bar.xyz/11/?scale=27&title=progress&width=500&color=babaca&suffix=/27) |
 | [배열](./BARKINGDOG_03.md)                        | ![100%](https://progress-bar.xyz/0/?scale=8&title=progress&width=500&color=babaca&suffix=/8)   |
 | [연결 리스트](./BARKINGDOG_04.md)                 | ![100%](https://progress-bar.xyz/0/?scale=3&title=progress&width=500&color=babaca&suffix=/3)   |
 | [스택](./BARKINGDOG_05.md)                        | ![100%](https://progress-bar.xyz/0/?scale=8&title=progress&width=500&color=babaca&suffix=/8)   |
