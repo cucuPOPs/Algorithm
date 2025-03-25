@@ -40,9 +40,9 @@ def update_workbook(md_file, solved_problems):
 
             if problem_number in solved_problems:
                 solved_count += 1
-                cpp_link = f'[Code]({solved_problems[problem_number]["cpp"]})' if solved_problems[problem_number]["cpp"] else " "
-                cs_link = f'[Code]({solved_problems[problem_number]["cs"]})' if solved_problems[problem_number]["cs"] else " "
-                md_link = f'[Memo]({solved_problems[problem_number]["md"]})' if solved_problems[problem_number]["md"] else " "
+                cpp_link = f'[Code](../{solved_problems[problem_number]["cpp"]})' if solved_problems[problem_number]["cpp"] else " "
+                cs_link = f'[Code](../{solved_problems[problem_number]["cs"]})' if solved_problems[problem_number]["cs"] else " "
+                md_link = f'[Memo](../{solved_problems[problem_number]["md"]})' if solved_problems[problem_number]["md"] else " "
 
                 columns = line.split("|")
                 columns[3] = f" {cpp_link} "
