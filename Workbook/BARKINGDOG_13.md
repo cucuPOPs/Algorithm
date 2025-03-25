@@ -1,15 +1,15 @@
 # BARKINGDOG_13 - 21
 
 [이분탐색](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x13.md)
-![100%](https://progress-bar.xyz/0/?scale=21&title=progress&width=500&color=babaca&suffix=/21)
+![100%](https://progress-bar.xyz/3/?scale=21&title=progress&width=500&color=babaca&suffix=/21)
 
 | 문제번호 | 문제제목                                             | C++ | C#  | 회고 | 리마인드✔️❓ |
 | -------- | ---------------------------------------------------- | --- | --- | ---- | ------------ |
-| 1920     | [수 찾기](https://boj.kr/1920)                       |     |     |      |              |
-| 10816    | [숫자 카드 2](https://boj.kr/10816)                  |     |     |      |              |
+| 1920     | [수 찾기](https://boj.kr/1920)                       |   | [Code](../Baekjoon/Silver/1920.cs) | [Memo](../Baekjoon/Silver/1920.md) |              |
+| 10816    | [숫자 카드 2](https://boj.kr/10816)                  |   | [Code](../Baekjoon/Silver/10816.cs) |   |              |
 | 18870    | [좌표 압축](https://boj.kr/18870)                    |     |     |      |              |
 | 2295     | [세 수의 합](https://boj.kr/2295)                    |     |     |      |              |
-| 1654     | [랜선 자르기](https://boj.kr/1654)                   |     |     |      |              |
+| 1654     | [랜선 자르기](https://boj.kr/1654)                   |   | [Code](../Baekjoon/Silver/1654.cs) |   |              |
 | 10815    | [숫자 카드](https://boj.kr/10815)                    |     |     |      |              |
 | 1822     | [차집합](https://boj.kr/1822)                        |     |     |      |              |
 | 16401    | [과자 나눠주기](https://boj.kr/16401)                |     |     |      |              |

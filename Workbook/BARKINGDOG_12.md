@@ -1,30 +1,30 @@
 # BARKINGDOG_12 - 39
 
 [수학](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x12.md)
-![100%](https://progress-bar.xyz/0/?scale=39&title=progress&width=500&color=babaca&suffix=/39)
+![100%](https://progress-bar.xyz/8/?scale=39&title=progress&width=500&color=babaca&suffix=/39)
 
 | 문제번호 | 문제제목                                            | C++ | C#  | 회고 | 리마인드✔️❓ |
 | -------- | --------------------------------------------------- | --- | --- | ---- | ------------ |
-| 1978     | [소수 찾기](https://boj.kr/1978)                    |     |     |      |              |
-| 1929     | [소수 구하기](https://boj.kr/1929)                  |     |     |      |              |
+| 1978     | [소수 찾기](https://boj.kr/1978)                    |   | [Code](../Baekjoon/Bronze/1978.cs) |   |              |
+| 1929     | [소수 구하기](https://boj.kr/1929)                  |   | [Code](../Baekjoon/Silver/1929.cs) | [Memo](../Baekjoon/Silver/1929.md) |              |
 | 11653    | [소인수분해](https://boj.kr/11653)                  |     |     |      |              |
 | 6064     | [카잉 달력](https://boj.kr/6064)                    |     |     |      |              |
-| 11050    | [이항 계수 1](https://boj.kr/11050)                 |     |     |      |              |
+| 11050    | [이항 계수 1](https://boj.kr/11050)                 |   | [Code](../Baekjoon/Bronze/11050.cs) | [Memo](../Baekjoon/Bronze/11050.md) |              |
 | 11051    | [이항 계수 2](https://boj.kr/11051)                 |     |     |      |              |
 | 15894    | [수학은 체육과목 입니다](https://boj.kr/15894)      |     |     |      |              |
 | 4796     | [캠핑](https://boj.kr/4796)                         |     |     |      |              |
 | 2960     | [에라토스테네스의 체](https://boj.kr/2960)          |     |     |      |              |
 | 1193     | [분수찾기](https://boj.kr/1193)                     |     |     |      |              |
 | 4948     | [베르트랑 공준](https://boj.kr/4948)                |     |     |      |              |
-| 1676     | [팩토리얼 0의 개수](https://boj.kr/1676)            |     |     |      |              |
+| 1676     | [팩토리얼 0의 개수](https://boj.kr/1676)            |   | [Code](../Baekjoon/Silver/1676.cs) | [Memo](../Baekjoon/Silver/1676.md) |              |
 | 9613     | [GCD 합](https://boj.kr/9613)                       |     |     |      |              |
-| 2292     | [벌집](https://boj.kr/2292)                         |     |     |      |              |
-| 2869     | [달팽이는 올라가고 싶다](https://boj.kr/2869)       |     |     |      |              |
+| 2292     | [벌집](https://boj.kr/2292)                         |   | [Code](../Baekjoon/Bronze/2292.cs) |   |              |
+| 2869     | [달팽이는 올라가고 싶다](https://boj.kr/2869)       |   | [Code](../Baekjoon/Bronze/2869.cs) |   |              |
 | 10610    | [30](https://boj.kr/10610)                          |     |     |      |              |
 | 6359     | [만취한 상범](https://boj.kr/6359)                  |     |     |      |              |
-| 10250    | [ACM 호텔](https://boj.kr/10250)                    |     |     |      |              |
+| 10250    | [ACM 호텔](https://boj.kr/10250)                    |   | [Code](../Baekjoon/Bronze/10250.cs) |   |              |
 | 1456     | [거의 소수](https://boj.kr/1456)                    |     |     |      |              |
-| 2839     | [설탕 배달](https://boj.kr/2839)                    |     |     |      |              |
+| 2839     | [설탕 배달](https://boj.kr/2839)                    |   | [Code](../Baekjoon/Silver/2839.cs) |   |              |
 | 17103    | [골드바흐 파티션](https://boj.kr/17103)             |     |     |      |              |
 | 2312     | [수 복원하기](https://boj.kr/2312)                  |     |     |      |              |
 | 9020     | [골드바흐의 추측](https://boj.kr/9020)              |     |     |      |              |
