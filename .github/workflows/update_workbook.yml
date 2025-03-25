@@ -1,0 +1,55 @@
+name: Update Workbook Progress
+
+on:
+  push:
+    paths:
+      - "Workbook/*.md"
+
+permissions:
+  contents: write # 리포지토리 내용 수정 권한
+
+jobs:
+  update_workbook:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Repository 체크아웃
+      - name: Checkout the repository
+        uses: actions/checkout@v3
+
+        
+      # 2. 푸시된 새 파일을 가져오기
+      - name: Get added files
+        id: added_files
+        run: |
+          # 전체 커밋 히스토리를 가져오기
+          git fetch --depth=2
+          # 새로 추가된 파일만 가져오기 (현재 커밋과 이전 커밋을 비교)
+          echo "ADDED_FILES=$(git diff --name-only --diff-filter=A HEAD~1 HEAD | tr '\n' ' ')" >> $GITHUB_ENV
+    
+      # 3. Python 환경 설정
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      # 4. 문제집 업데이트 스크립트 실행
+      - name: Update Workbook Markdown Files
+        if: ${{ env.ADDED_FILES != '' }} # 새 파일이 있을 경우에만 실행
+        run: |
+          python .github/scripts/update_workbook.py
+
+      # 5. 변경 사항이 있으면 커밋 & 푸시
+      - name: Commit changes if any
+        if: ${{ env.ADDED_FILES != '' }} # 새 파일이 있을 경우에만 실행
+        run: |
+          git config --global user.name "githubAction"
+          git config --global user.email "your-email@example.com"
+
+          if [[ -n $(git status --porcelain) ]]; then
+            git add .
+            git commit -m "[Bot]: Update Workbook progress"
+            git push
+          else
+            echo "No changes to commit"
+          fi
