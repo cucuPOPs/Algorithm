@@ -1,3 +1,5 @@
+[Back(문제집으로)](/Workbook/README.md)
+
 # BARKINGDOG_10 - 44
 
 [다이나믹 프로그래밍](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x10.md)

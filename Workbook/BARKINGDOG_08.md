@@ -1,3 +1,5 @@
+[Back(문제집으로)](/Workbook/README.md)
+
 # BARKINGDOG_08 - 5
 
 [스택의활용(수식의괄호쌍)](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x08.md)

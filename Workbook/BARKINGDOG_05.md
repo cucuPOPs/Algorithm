@@ -1,3 +1,5 @@
+[Back(문제집으로)](/Workbook/README.md)
+
 # BARKINGDOG_05 - 8
 
 [스택](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x05.md)

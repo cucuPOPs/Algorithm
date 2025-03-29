@@ -1,3 +1,5 @@
+[Back(문제집으로)](/Workbook/README.md)
+
 # BARKINGDOG_1A - 7
 
 [위상 정렬](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x1A.md)

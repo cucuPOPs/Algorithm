@@ -1,3 +1,5 @@
+[Back(문제집으로)](/Workbook/README.md)
+
 # BARKINGDOG_02 - 27
 
 [기초 코드 작성 요령](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x02.md)

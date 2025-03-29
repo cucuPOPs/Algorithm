@@ -1,3 +1,5 @@
+[Back(문제집으로)](/Workbook/README.md)
+
 # BARKINGDOG_16 - 7
 
 [이진 검색 트리](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x16.md)
