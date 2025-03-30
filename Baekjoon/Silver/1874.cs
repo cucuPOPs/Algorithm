@@ -1,33 +1,30 @@
-using System;
-using System.Collections.Generic;
-
 class Program
 {
+    private const int bufferSize = 131072;//131072=128KB. 경험적 가장빠른속도. 기본=4096=4KB.
+    public static readonly StreamReader sr = new(new BufferedStream(Console.OpenStandardInput(), bufferSize));
+    public static readonly StreamWriter sw = new(new BufferedStream(Console.OpenStandardOutput(), bufferSize));
     static void Main()
     {
-        int n = int.Parse(Console.ReadLine());
+        int n = int.Parse(sr.ReadLine());
         Stack<int> stack = new Stack<int>();
-        List<string> result = new List<string>();
-
-        int current = 1; // 스택에 넣을 숫자
-        bool possible = true; // 가능한지 판별
+        StringBuilder sb = new StringBuilder();
+        int current = 1;
+        bool possible = true;
 
         for (int i = 0; i < n; i++)
         {
-            int target = int.Parse(Console.ReadLine());
+            int target = int.Parse(sr.ReadLine());
 
-            // 목표 숫자까지 Push
             while (current <= target)
             {
                 stack.Push(current++);
-                result.Add("+");
+                sb.AppendLine("+");
             }
 
-            // Pop 수행
             if (stack.Peek() == target)
             {
                 stack.Pop();
-                result.Add("-");
+                sb.AppendLine("-");
             }
             else
             {
@@ -36,10 +33,13 @@ class Program
             }
         }
 
-        // 결과 출력
         if (possible)
-            Console.WriteLine(string.Join("\n", result));
+            sw.WriteLine(sb.ToString());
         else
-            Console.WriteLine("NO");
+            sw.WriteLine("NO");
+
+        sw.Flush();
     }
+
+
 }
