@@ -7,6 +7,6 @@
 
 | 문제번호 | 문제제목                             | C++ | C#  | 회고 | 리마인드✔️❓ |
 | -------- | ------------------------------------ | --- | --- | ---- | ------------ |
-| 1406     | [에디터](https://boj.kr/1406)        |     | [Code](../Baekjoon/Silver/1406.cs) | [Memo](../Baekjoon/Silver/1406.md) |              |
+| 1406     | [에디터](https://boj.kr/1406)        |     | [Code](../Baekjoon/Silver/1406.cs) |  |              |
 | 5397     | [키로거](https://boj.kr/5397)        |     | [Code](../Baekjoon/Silver/5397.cs) | [Memo](../Baekjoon/Silver/5397.md) |              |
 | 1158     | [요세푸스 문제](https://boj.kr/1158) |     | [Code](../Baekjoon/Silver/1158.cs) | [Memo](../Baekjoon/Silver/1158.md) |              |
