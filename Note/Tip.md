@@ -1,3 +1,6 @@
+[Back(메인으로)](/README.md)  
+
+
 # Foreach
 
 ## IEnumerable을 받음
@@ -75,5 +78,29 @@ C#에서 Math.Round의 반올림은 [은행가 반올림](/Baekjoon/Silver/18110
 
 
 
+# Array 클래스
+유용하다고 느낀 함수들을 정리해보았다.
+```C#
+using System;
 
+class Program
+{
+    static void Main()
+    {
+        int[] numbers = { 5, 2, 8, 1, 3 };
 
+        // 1. 배열 정렬 (Sort)
+        Array.Sort(numbers);
+        Console.WriteLine("Sorted: " + string.Join(", ", numbers)); // 1, 2, 3, 5, 8
+
+        // 2. 배열 초기화 (Clear)
+        Array.Clear(numbers);
+        Console.WriteLine("Cleared: " + string.Join(", ", numbers)); // 0, 0, 0, 0, 0
+
+        // 3. 모든 요소를 특정 값으로 설정 (Fill)
+        Array.Fill(numbers, 9);
+        Console.WriteLine("Filled: " + string.Join(", ", numbers)); // 9, 9, 9, 9, 9
+    }
+}
+
+```

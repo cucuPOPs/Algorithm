@@ -1,5 +1,8 @@
+[Back(메인으로)](/README.md)  
+
 출처: https://www.acmicpc.net/source/72759533
 또 보이면... 정리해보자.
+
 ```C#
 class Reader
 {
