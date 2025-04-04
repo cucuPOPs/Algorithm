@@ -2,7 +2,7 @@
 
 # CLASS_03 - 48
 
-![100%](https://progress-bar.xyz/0/?scale=48&title=progress&width=500&color=babaca&suffix=/48)
+![100%](https://progress-bar.xyz/1/?scale=48&title=progress&width=500&color=babaca&suffix=/48)
 
 | 문제번호 | 문제제목                                           | C++ | C#  | 회고 | 리마인드✔️❓ |
 | -------- | -------------------------------------------------- | --- | --- | ---- | ------------ |
@@ -24,7 +24,7 @@
 | 2630     | [색종이 만들기](https://boj.kr/2630)               |     |     |      |              |
 | 2667     | [단지번호붙이기](https://boj.kr/2667)              |     |     |      |              |
 | 2805     | [나무 자르기](https://boj.kr/2805)                 |     |     |      |              |
-| 5430     | [AC](https://boj.kr/5430)                          |     |     |      |              |
+| 5430     | [AC](https://boj.kr/5430)                          |     | [Code](../Baekjoon/Gold/5430.cs) | [Memo](../Baekjoon/Gold/5430.md) |              |
 | 5525     | [IOIOI](https://boj.kr/5525)                       |     |     |      |              |
 | 6064     | [카잉 달력](https://boj.kr/6064)                   |     |     |      |              |
 | 7569     | [토마토](https://boj.kr/7569)                      |     |     |      |              |
