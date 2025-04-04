@@ -3,11 +3,11 @@
 # BARKINGDOG_07 - 4
 
 [덱](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x07.md)
-![100%](https://progress-bar.xyz/3/?scale=4&title=progress&width=500&color=babaca&suffix=/4)
+![100%](https://progress-bar.xyz/4/?scale=4&title=progress&width=500&color=babaca&suffix=/4)
 
 | 문제번호 | 문제제목                            | C++ | C#  | 회고 | 리마인드✔️❓ |
 | -------- | ----------------------------------- | --- | --- | ---- | ------------ |
 | 10866    | [덱](https://boj.kr/10866)          |     | [Code](../Baekjoon/Silver/10866.cs) | [Memo](../Baekjoon/Silver/10866.md) |              |
 | 1021     | [회전하는 큐](https://boj.kr/1021)  |     | [Code](../Baekjoon/Silver/1021.cs) |      |              |
 | 5430     | [AC](https://boj.kr/5430)           |     | [Code](../Baekjoon/Gold/5430.cs) | [Memo](../Baekjoon/Gold/5430.md) | ✔️             |
-| 11003    | [최솟값 찾기](https://boj.kr/11003) |     |     |      | ✔️             |
+| 11003    | [최솟값 찾기](https://boj.kr/11003) |     | [Code](../Baekjoon/Platinum/11003.cs) | [Memo](../Baekjoon/Platinum/11003.md) | ✔️             |

@@ -27,7 +27,7 @@
 | [연결 리스트](./BARKINGDOG_04.md)                 | ![100%](https://progress-bar.xyz/3/?scale=3&title=progress&width=500&color=babaca&suffix=/3)   |
 | [스택](./BARKINGDOG_05.md)                        | ![100%](https://progress-bar.xyz/3/?scale=8&title=progress&width=500&color=babaca&suffix=/8)   |
 | [큐](./BARKINGDOG_06.md)                          | ![100%](https://progress-bar.xyz/3/?scale=3&title=progress&width=500&color=babaca&suffix=/3)   |
-| [덱](./BARKINGDOG_07.md)                          | ![100%](https://progress-bar.xyz/3/?scale=4&title=progress&width=500&color=babaca&suffix=/4)   |
+| [덱](./BARKINGDOG_07.md)                          | ![100%](https://progress-bar.xyz/4/?scale=4&title=progress&width=500&color=babaca&suffix=/4)   |
 | [스택의 활용(수식의 괄호 쌍)](./BARKINGDOG_08.md) | ![100%](https://progress-bar.xyz/5/?scale=5&title=progress&width=500&color=babaca&suffix=/5)   |
 | [BFS](./BARKINGDOG_09.md)                         | ![100%](https://progress-bar.xyz/0/?scale=30&title=progress&width=500&color=babaca&suffix=/30) |
 | [재귀](./BARKINGDOG_0B.md)                        | ![100%](https://progress-bar.xyz/0/?scale=10&title=progress&width=500&color=babaca&suffix=/10) |
