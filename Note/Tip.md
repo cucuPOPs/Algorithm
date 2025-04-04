@@ -109,3 +109,46 @@ class Program
 }
 
 ```
+# Enumerable 클래스
+```C#
+using System;
+using System.Linq;
+
+class Program
+{
+    static void Main()
+    {
+        //Range
+        var numbers = Enumerable.Range(1, 5); // 1부터 시작해서 5개 생성
+        Console.WriteLine(string.Join(", ", numbers)); // 출력: 1, 2, 3, 4, 5
+
+        //Repeat
+        var repeated = Enumerable.Repeat("Hello", 3);
+        Console.WriteLine(string.Join(", ", repeated)); // 출력: Hello, Hello, Hello
+
+        //SelectMany
+        string[] phrases = { "Hello World", "C# LINQ" };
+        var words = phrases.SelectMany(p => p.Split(' '));
+        Console.WriteLine(string.Join(", ", words)); // 출력: Hello, World, C#, LINQ
+
+        //Aggregate
+        int[] numbers = { 1, 2, 3, 4 };
+        int sum = numbers.Aggregate((total, num) => total + num);
+        Console.WriteLine(sum); // 출력: 10
+
+        //GroupBy
+        string[] words = { "apple", "banana", "apricot", "blueberry", "avocado" };
+        var groups = words.GroupBy(w => w[0]); // 첫 글자로 그룹화
+
+        foreach (var group in groups)
+        {
+            Console.WriteLine($"Group {group.Key}: {string.Join(", ", group)}");
+            //출력
+            //Group a: apple, apricot, avocado
+            //Group b: banana, blueberry
+        }
+        
+    }
+}
+
+```
