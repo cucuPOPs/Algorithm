@@ -33,8 +33,8 @@
 | [재귀](./BARKINGDOG_0B.md)                        | ![100%](https://progress-bar.xyz/0/?scale=10&title=progress&width=500&color=babaca&suffix=/10) |
 | [백트래킹](./BARKINGDOG_0C.md)                    | ![100%](https://progress-bar.xyz/0/?scale=20&title=progress&width=500&color=babaca&suffix=/20) |
 | [시뮬레이션](./BARKINGDOG_0D.md)                  | ![100%](https://progress-bar.xyz/0/?scale=61&title=progress&width=500&color=babaca&suffix=/61) |
-| [정렬 I](./BARKINGDOG_0E.md)                      | ![100%](https://progress-bar.xyz/5/?scale=8&title=progress&width=500&color=babaca&suffix=/8)   |
-| [정렬 II](./BARKINGDOG_0F.md)                     | ![100%](https://progress-bar.xyz/2/?scale=9&title=progress&width=500&color=babaca&suffix=/9)   |
+| [정렬 I](./BARKINGDOG_0E.md)                      | ![100%](https://progress-bar.xyz/8/?scale=8&title=progress&width=500&color=babaca&suffix=/8)   |
+| [정렬 II](./BARKINGDOG_0F.md)                     | ![100%](https://progress-bar.xyz/9/?scale=9&title=progress&width=500&color=babaca&suffix=/9)   |
 | [다이나믹 프로그래밍](./BARKINGDOG_10.md)         | ![100%](https://progress-bar.xyz/0/?scale=44&title=progress&width=500&color=babaca&suffix=/44) |
 | [그리디](./BARKINGDOG_11.md)                      | ![100%](https://progress-bar.xyz/0/?scale=17&title=progress&width=500&color=babaca&suffix=/17) |
 | [수학](./BARKINGDOG_12.md)                        | ![100%](https://progress-bar.xyz/8/?scale=39&title=progress&width=500&color=babaca&suffix=/39) |
