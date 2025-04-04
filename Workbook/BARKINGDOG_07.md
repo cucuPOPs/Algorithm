@@ -9,5 +9,5 @@
 | -------- | ----------------------------------- | --- | --- | ---- | ------------ |
 | 10866    | [덱](https://boj.kr/10866)          |     | [Code](../Baekjoon/Silver/10866.cs) | [Memo](../Baekjoon/Silver/10866.md) |              |
 | 1021     | [회전하는 큐](https://boj.kr/1021)  |     | [Code](../Baekjoon/Silver/1021.cs) |      |              |
-| 5430     | [AC](https://boj.kr/5430)           |     | [Code](../Baekjoon/Gold/5430.cs) | [Memo](../Baekjoon/Gold/5430.md) |              |
-| 11003    | [최솟값 찾기](https://boj.kr/11003) |     |     |      |              |
+| 5430     | [AC](https://boj.kr/5430)           |     | [Code](../Baekjoon/Gold/5430.cs) | [Memo](../Baekjoon/Gold/5430.md) | ✔️             |
+| 11003    | [최솟값 찾기](https://boj.kr/11003) |     |     |      | ✔️             |

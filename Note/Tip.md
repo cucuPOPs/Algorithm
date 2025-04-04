@@ -100,6 +100,11 @@ class Program
         // 3. 모든 요소를 특정 값으로 설정 (Fill)
         Array.Fill(numbers, 9);
         Console.WriteLine("Filled: " + string.Join(", ", numbers)); // 9, 9, 9, 9, 9
+
+        //4. 빈배열 선언
+        int[] good = Array.Empty<int>();
+        int[] notbad = new int[0];
+        //유니티의 Vector3.zero같은, 캐싱되어있는것을 참조하기때문.
     }
 }
 
