@@ -1,4 +1,4 @@
-[Back(메인으로)](/README.md)  
+[Back(메인으로)](/README.md)
 
 # C#기준으로 강의정리
 
@@ -196,7 +196,7 @@ class Program {
 
 # 0x06 큐
 
-C++과 다르게, C#에서는 back을 지원하지않음.  
+C++과 다르게, C#에서는 back을 지원하지않음.
 
 ## C++ std::queue vs C# Queue<T>
 
@@ -220,7 +220,8 @@ C++과 다르게, C#에서는 back을 지원하지않음.
 Contains이나 Clear의 성능은 O(N).  
 큐의 요소를 하나씩 확인하는 head부터 순차적으로 선형탐색방식이다.  
 그렇다면, 컬렉션의 자료구조에 따라서, Contains의 성능이 달라진다고 볼수있다.
-물론 string클래스에서 contains메소드도 있지만, 여기서는 컬렉션에 존재하는 Contains를 말한다.  
+물론 string클래스에서 contains메소드도 있지만, 여기서는 컬렉션에 존재하는 Contains를 말한다.
+
 ### **🔍 C# 컬렉션별 `Contains(value)` 성능 비교**
 
 | 컬렉션 유형                  | 내부 구조        | `Contains(value)` 시간 복잡도    | 설명                    |
@@ -248,15 +249,69 @@ Contains이나 Clear의 성능은 O(N).
 | **`SortedSet<T>`**          | 이진 검색 트리   | **O(n)**              | 모든 노드 삭제                  |
 
 # 0x07 덱
-C#에서는, c++의 덱에 대응되는 컬렉션이 존재하지않음.  
 
+C#에서는, c++의 덱에 대응되는 컬렉션이 존재하지않음.  
+LinkedList로 덱을 구현함.
 # 0x08 스택의 활용(수식의 괄호쌍)
 ...
 
+
 # 0x09 BFS
+...
+
 # 0x0A DFS
+...
+
 # 0x0B 재귀
+
 # 0x0C 백트레킹
+
 # 0x0D 시뮬레이션
 
+# 0x0E 정렬I
 
+# 0x0F 정렬 II
+
+# 0x10 다이나믹 프로그래밍
+
+# 0x11 그리디
+
+# 0x12 수학
+
+# 0x13 이분탐색
+
+# 0x14 투포인터
+
+# 0x15 해시
+C#에서는 `Dictionary<TKey,TValue>`, `HashSet<T>`,`SortedDictionary<Tkey,TValue>`가 있음.  
+Key 중복 예외 조심: .Add()는 중복 키 입력 시 에러. → `dict[key] = value` 방식이 안전함.  
+foreach로 딕셔너리 순회시, 입력순서가 보장되지않는다.  
+
+
+# 0x16 이진검색트리
+
+# 0x17 우선순위큐
+
+# 0x18 그래프
+
+# 0x19 트리
+
+# 0x1A 위상정렬
+
+# 0x1B 최소신장트리
+
+# 0x1c 플로이드 알고리즘
+
+# 0x1D 다익스트라 알고리즘
+
+# 0x1E KMP
+
+# 0x1F 트라이
+
+# Appendix_A 문자열기초
+
+# Appendix_B 동적배열
+
+# Appendix_C 비트마스킹
+
+# Appendix_D Union-Find
