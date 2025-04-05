@@ -2,7 +2,7 @@
 
 # CLASS_03 - 48
 
-![100%](https://progress-bar.xyz/1/?scale=48&title=progress&width=500&color=babaca&suffix=/48)
+![100%](https://progress-bar.xyz/4/?scale=48&title=progress&width=500&color=babaca&suffix=/48)
 
 | 문제번호 | 문제제목                                           | C++ | C#  | 회고 | 리마인드✔️❓ |
 | -------- | -------------------------------------------------- | --- | --- | ---- | ------------ |
@@ -13,7 +13,7 @@
 | 1389     | [케빈 베이컨의 6단계 법칙](https://boj.kr/1389)    |     |     |      |              |
 | 1463     | [1로 만들기](https://boj.kr/1463)                  |     |     |      |              |
 | 1541     | [잃어버린 괄호](https://boj.kr/1541)               |     |     |      |              |
-| 1620     | [나는야 포켓몬 마스터 이다솜](https://boj.kr/1620) |     |     |      |              |
+| 1620     | [나는야 포켓몬 마스터 이다솜](https://boj.kr/1620) |     | [Code](../Baekjoon/Silver/1620.cs) | [Memo](../Baekjoon/Silver/1620.md) |              |
 | 1697     | [숨바꼭질](https://boj.kr/1697)                    |     |     |      |              |
 | 1764     | [듣보잡](https://boj.kr/1764)                      |     |     |      |              |
 | 1927     | [최소 힙](https://boj.kr/1927)                     |     |     |      |              |
@@ -32,7 +32,7 @@
 | 7662     | [이중 우선순위 큐](https://boj.kr/7662)            |     |     |      |              |
 | 9019     | [DSLR](https://boj.kr/9019)                        |     |     |      |              |
 | 9095     | [1, 2, 3 더하기](https://boj.kr/9095)              |     |     |      |              |
-| 9375     | [패션왕 신해빈](https://boj.kr/9375)               |     |     |      |              |
+| 9375     | [패션왕 신해빈](https://boj.kr/9375)               |     | [Code](../Baekjoon/Silver/9375.cs) |      |              |
 | 9461     | [파도반 수열](https://boj.kr/9461)                 |     |     |      |              |
 | 10026    | [적록색약](https://boj.kr/10026)                   |     |     |      |              |
 | 11047    | [동전 0](https://boj.kr/11047)                     |     |     |      |              |
@@ -48,7 +48,7 @@
 | 14500    | [테트로미노](https://boj.kr/14500)                 |     |     |      |              |
 | 14940    | [쉬운 최단거리](https://boj.kr/14940)              |     |     |      |              |
 | 16928    | [뱀과 사다리 게임](https://boj.kr/16928)           |     |     |      |              |
-| 17219    | [비밀번호 찾기](https://boj.kr/17219)              |     |     |      |              |
+| 17219    | [비밀번호 찾기](https://boj.kr/17219)              |     | [Code](../Baekjoon/Silver/17219.cs) |      |              |
 | 17626    | [Four Squares](https://boj.kr/17626)               |     |     |      |              |
 | 18111    | [마인크래프트](https://boj.kr/18111)               |     |     |      |              |
 | 18870    | [좌표 압축](https://boj.kr/18870)                  |     |     |      |              |

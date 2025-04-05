@@ -9,7 +9,7 @@
 | -------- | ---------------------------------------------- | --- | --- | ---- | ------------ |
 | 1431     | [시리얼 번호](https://boj.kr/1431)             |     | [Code](../Baekjoon/Silver/1431.cs) |      |              |
 | 11652    | [카드](https://boj.kr/11652)                   |     | [Code](../Baekjoon/Silver/11652.cs) | [Memo](../Baekjoon/Silver/11652.md) |              |
-| 5648     | [역원소 정렬](https://boj.kr/5648)             |     | [Code](../Baekjoon/Silver/5648.cs) |      |              |
+| 5648     | [역원소 정렬](https://boj.kr/5648)             |     | [Code](../Baekjoon/Silver/5648.cs) | [Memo](../Baekjoon/Silver/5648.md) |              |
 | 1181     | [단어 정렬](https://boj.kr/1181)               |   | [Code](../Baekjoon/Silver/1181.cs) |   |              |
 | 2910     | [빈도 정렬](https://boj.kr/2910)               |     | [Code](../Baekjoon/Silver/2910.cs) | [Memo](../Baekjoon/Silver/2910.md) | ✔️             |
 | 10814    | [나이순 정렬](https://boj.kr/10814)            |   | [Code](../Baekjoon/Silver/10814.cs) |   |              |
