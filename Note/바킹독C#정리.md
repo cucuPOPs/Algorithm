@@ -252,14 +252,17 @@ Contains이나 Clear의 성능은 O(N).
 
 C#에서는, c++의 덱에 대응되는 컬렉션이 존재하지않음.  
 LinkedList로 덱을 구현함.
+
 # 0x08 스택의 활용(수식의 괄호쌍)
+
 ...
 
-
 # 0x09 BFS
+
 ...
 
 # 0x0A DFS
+
 ...
 
 # 0x0B 재귀
@@ -283,20 +286,63 @@ LinkedList로 덱을 구현함.
 # 0x14 투포인터
 
 # 0x15 해시
+
 C#에서는 `Dictionary<TKey,TValue>`, `HashSet<T>`,`SortedDictionary<Tkey,TValue>`가 있음.  
 Key 중복 예외 조심: .Add()는 중복 키 입력 시 에러. → `dict[key] = value` 방식이 안전함.  
-foreach로 딕셔너리 순회시, 입력순서가 보장되지않는다.  
-
+foreach로 딕셔너리 순회시, 입력순서가 보장되지않는다.
 
 # 0x16 이진검색트리
 
 # 0x17 우선순위큐
 
+C++과 다르게, C#에는 우선순위와 데이터를 분리되어 있음.  
+C++에서는 기본값이 최대힙, C#에서는 최소힙.
+
+## C++ `priority_queue` vs C# `PriorityQueue<TElement,TPriority>`
+
+| 항목            | C++ `priority_queue` | C# `PriorityQueue<TElement, TPriority>` |
+| --------------- | -------------------- | --------------------------------------- |
+| **삽입 메서드** | `push(value)`        | `Enqueue(element, priority)`            |
+| **삭제 메서드** | `pop()`              | `Dequeue()`                             |
+| **Top 접근**    | `top()`              | `Peek()`                                |
+
+## 샘플코드
+
+```C#
+class Program {
+    static void Main() {
+        var pq = new PriorityQueue<string, int>(); // Min-Heap by default
+
+        pq.Enqueue("apple", 3);
+        pq.Enqueue("banana", 1);
+        pq.Enqueue("cherry", 2);
+
+        while (pq.Count > 0) {
+            Console.WriteLine(pq.Dequeue()); // banana → cherry → apple
+        }
+    }
+}
+```
+
 # 0x18 그래프
+
+인접리스트의 구현에서는 `List<int>[] adj=new List<int>[10];`
+만약 노드번호가 연속되지않는다면, `Dictionary<int, List<int>>`형태로 사용가능.  
+C++의 `pair<int,int>`처럼, `(int,int)` 튜플을 간선으로 사용가능.
+
+```C#
+bool[] visited = new bool[10];
+int[] dist = new int[10];
+Array.Fill(dist, -1); // 거리 초기화 시 유용
+```
 
 # 0x19 트리
 
+...
+
 # 0x1A 위상정렬
+
+...
 
 # 0x1B 최소신장트리
 
