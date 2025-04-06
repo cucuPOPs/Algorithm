@@ -266,7 +266,7 @@ public interface ISet<T> : ICollection<T>, IEnumerable<T>, IEnumerable
 - `ICollection`
 - `IEnumerable`
 
-## 속성(Properties)
+### 속성(Properties)
 
 | 속성                   | 인터페이스 출처                                           | 시간복잡도    | 설명                                     |
 | ---------------------- | --------------------------------------------------------- | ------------- | ---------------------------------------- |
@@ -275,7 +275,7 @@ public interface ISet<T> : ICollection<T>, IEnumerable<T>, IEnumerable
 | `Item[Int32]` (인덱서) | `IList<T>`, `IList`, `IReadOnlyList<T>`                   | O(1)          | 지정된 인덱스에서 요소를 가져오거나 설정 |
 | `IsReadOnly`           | `ICollection<T>`, `IList`                                 | O(1)          | 읽기 전용 여부 (항상 false)              |
 
-## 메서드(Methods)
+### 메서드(Methods)
 
 | 메서드                                        | 인터페이스 출처                 | 시간복잡도 | 설명                                   |
 | --------------------------------------------- | ------------------------------- | ---------- | -------------------------------------- |
@@ -338,7 +338,7 @@ public interface ISet<T> : ICollection<T>, IEnumerable<T>, IEnumerable
 | `GetType()`                                   | `Object`에서 상속               | O(1)       | 현재 인스턴스의 Type 가져옴            |
 | `ToString()`                                  | `Object`에서 상속               | O(n)       | 개체를 나타내는 문자열 반환            |
 
-## 인터페이스별 메서드 분포:
+### 인터페이스별 메서드 분포:
 
 List\<T> 고유 메서드: 주로 고급 검색(FindAll, FindIndex), 정렬(Sort), 변환(ConvertAll), 범위 연산(GetRange, RemoveRange) 등
 ICollection\<T>/IList\<T>: 기본적인 컬렉션 연산(Add, Remove, Contains 등)
