@@ -2,7 +2,7 @@
 
 # CLASS_03 - 48
 
-![100%](https://progress-bar.xyz/4/?scale=48&title=progress&width=500&color=babaca&suffix=/48)
+![100%](https://progress-bar.xyz/7/?scale=48&title=progress&width=500&color=babaca&suffix=/48)
 
 | 문제번호 | 문제제목                                           | C++ | C#  | 회고 | 리마인드✔️❓ |
 | -------- | -------------------------------------------------- | --- | --- | ---- | ------------ |
@@ -16,7 +16,7 @@
 | 1620     | [나는야 포켓몬 마스터 이다솜](https://boj.kr/1620) |     | [Code](../Baekjoon/Silver/1620.cs) | [Memo](../Baekjoon/Silver/1620.md) |              |
 | 1697     | [숨바꼭질](https://boj.kr/1697)                    |     |     |      |              |
 | 1764     | [듣보잡](https://boj.kr/1764)                      |     |     |      |              |
-| 1927     | [최소 힙](https://boj.kr/1927)                     |     |     |      |              |
+| 1927     | [최소 힙](https://boj.kr/1927)                     |     | [Code](../Baekjoon/Silver/1927.cs) |      |              |
 | 1931     | [회의실 배정](https://boj.kr/1931)                 |     |     |      |              |
 | 2178     | [미로 탐색](https://boj.kr/2178)                   |     |     |      |              |
 | 2579     | [계단 오르기](https://boj.kr/2579)                 |     |     |      |              |
@@ -36,8 +36,8 @@
 | 9461     | [파도반 수열](https://boj.kr/9461)                 |     |     |      |              |
 | 10026    | [적록색약](https://boj.kr/10026)                   |     |     |      |              |
 | 11047    | [동전 0](https://boj.kr/11047)                     |     |     |      |              |
-| 11279    | [최대 힙](https://boj.kr/11279)                    |     |     |      |              |
-| 11286    | [절댓값 힙](https://boj.kr/11286)                  |     |     |      |              |
+| 11279    | [최대 힙](https://boj.kr/11279)                    |     | [Code](../Baekjoon/Silver/11279.cs) |      |              |
+| 11286    | [절댓값 힙](https://boj.kr/11286)                  |     | [Code](../Baekjoon/Silver/11286.cs) |      |              |
 | 11399    | [ATM](https://boj.kr/11399)                        |     |     |      |              |
 | 11403    | [경로 찾기](https://boj.kr/11403)                  |     |     |      |              |
 | 11659    | [구간 합 구하기 4](https://boj.kr/11659)           |     |     |      |              |
