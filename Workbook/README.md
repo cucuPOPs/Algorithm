@@ -9,7 +9,7 @@
 | [새싹](./SPROUT.md)       | ![100%](https://progress-bar.xyz/38/?scale=38&title=progress&width=500&color=babaca&suffix=/38) |
 | [class_01](./CLASS_01.md) | ![100%](https://progress-bar.xyz/36/?scale=36&title=progress&width=500&color=babaca&suffix=/36) |
 | [class_02](./CLASS_02.md) | ![100%](https://progress-bar.xyz/40/?scale=40&title=progress&width=500&color=babaca&suffix=/40) |
-| [class_03](./CLASS_03.md) | ![100%](https://progress-bar.xyz/7/?scale=48&title=progress&width=500&color=babaca&suffix=/48) |
+| [class_03](./CLASS_03.md) | ![100%](https://progress-bar.xyz/9/?scale=48&title=progress&width=500&color=babaca&suffix=/48) |
 | [class_04](./CLASS_04.md) | ![100%](https://progress-bar.xyz/0/?scale=48&title=progress&width=500&color=babaca&suffix=/48) |
 | [class_05](./CLASS_05.md) | ![100%](https://progress-bar.xyz/0/?scale=48&title=progress&width=500&color=babaca&suffix=/48) |
 | [class_06](./CLASS_06.md) | ![100%](https://progress-bar.xyz/0/?scale=48&title=progress&width=500&color=babaca&suffix=/48) |
@@ -43,7 +43,7 @@
 | [해시](./BARKINGDOG_15.md)                        | ![100%](https://progress-bar.xyz/8/?scale=10&title=progress&width=500&color=babaca&suffix=/10) |
 | [이진 검색 트리](./BARKINGDOG_16.md)              | ![100%](https://progress-bar.xyz/0/?scale=7&title=progress&width=500&color=babaca&suffix=/7)   |
 | [우선순위 큐](./BARKINGDOG_17.md)                 | ![100%](https://progress-bar.xyz/6/?scale=8&title=progress&width=500&color=babaca&suffix=/8)   |
-| [그래프](./BARKINGDOG_18.md)                      | ![100%](https://progress-bar.xyz/0/?scale=13&title=progress&width=500&color=babaca&suffix=/13) |
+| [그래프](./BARKINGDOG_18.md)                      | ![100%](https://progress-bar.xyz/2/?scale=13&title=progress&width=500&color=babaca&suffix=/13) |
 | [트리](./BARKINGDOG_19.md)                        | ![100%](https://progress-bar.xyz/0/?scale=13&title=progress&width=500&color=babaca&suffix=/13) |
 | [위상 정렬](./BARKINGDOG_1A.md)                   | ![100%](https://progress-bar.xyz/0/?scale=7&title=progress&width=500&color=babaca&suffix=/7)   |
 | [최소 신장 트리](./BARKINGDOG_1B.md)              | ![100%](https://progress-bar.xyz/0/?scale=9&title=progress&width=500&color=babaca&suffix=/9)   |
