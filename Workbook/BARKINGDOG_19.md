@@ -3,11 +3,11 @@
 # BARKINGDOG_19 - 13
 
 [트리](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x19.md)
-![100%](https://progress-bar.xyz/0/?scale=13&title=progress&width=500&color=babaca&suffix=/13)
+![100%](https://progress-bar.xyz/1/?scale=13&title=progress&width=500&color=babaca&suffix=/13)
 
 | 문제번호 | 문제제목                                  | C++ | C#  | 회고 | 리마인드✔️❓ |
 | -------- | ----------------------------------------- | --- | --- | ---- | ------------ |
-| 11725    | [트리의 부모 찾기](https://boj.kr/11725)  |     |     |      |              |
+| 11725    | [트리의 부모 찾기](https://boj.kr/11725)  |     | [Code](../Baekjoon/Silver/11725.cs) |      |              |
 | 1991     | [트리 순회](https://boj.kr/1991)          |     |     |      |              |
 | 4803     | [트리](https://boj.kr/4803)               |     |     |      |              |
 | 15681    | [트리와 쿼리](https://boj.kr/15681)       |     |     |      |              |
