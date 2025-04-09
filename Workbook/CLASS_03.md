@@ -2,7 +2,7 @@
 
 # CLASS_03 - 48
 
-![100%](https://progress-bar.xyz/9/?scale=48&title=progress&width=500&color=babaca&suffix=/48)
+![100%](https://progress-bar.xyz/10/?scale=48&title=progress&width=500&color=babaca&suffix=/48)
 
 | 문제번호 | 문제제목                                           | C++ | C#  | 회고 | 리마인드✔️❓ |
 | -------- | -------------------------------------------------- | --- | --- | ---- | ------------ |
@@ -20,7 +20,7 @@
 | 1931     | [회의실 배정](https://boj.kr/1931)                 |     |     |      |              |
 | 2178     | [미로 탐색](https://boj.kr/2178)                   |     |     |      |              |
 | 2579     | [계단 오르기](https://boj.kr/2579)                 |     |     |      |              |
-| 2606     | [바이러스](https://boj.kr/2606)                    |     |     |      |              |
+| 2606     | [바이러스](https://boj.kr/2606)                    |     | [Code](../Baekjoon/Silver/2606.cs) |      |              |
 | 2630     | [색종이 만들기](https://boj.kr/2630)               |     |     |      |              |
 | 2667     | [단지번호붙이기](https://boj.kr/2667)              |     |     |      |              |
 | 2805     | [나무 자르기](https://boj.kr/2805)                 |     |     |      |              |

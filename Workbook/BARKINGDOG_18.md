@@ -3,14 +3,14 @@
 # BARKINGDOG_18 - 13
 
 [그래프](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x18.md)
-![100%](https://progress-bar.xyz/2/?scale=13&title=progress&width=500&color=babaca&suffix=/13)
+![100%](https://progress-bar.xyz/4/?scale=13&title=progress&width=500&color=babaca&suffix=/13)
 
 | 문제번호 | 문제제목                                        | C++ | C#  | 회고 | 리마인드✔️❓ |
 | -------- | ----------------------------------------------- | --- | --- | ---- | ------------ |
 | 11724    | [연결 요소의 개수](https://boj.kr/11724)        |     | [Code](../Baekjoon/Silver/11724.cs) |      |              |
 | 1260     | [DFS와 BFS](https://boj.kr/1260)                |     | [Code](../Baekjoon/Silver/1260.cs) | [Memo](../Baekjoon/Silver/1260.md) |              |
-| 2606     | [바이러스](https://boj.kr/2606)                 |     |     |      |              |
-| 5567     | [결혼식](https://boj.kr/5567)                   |     |     |      |              |
+| 2606     | [바이러스](https://boj.kr/2606)                 |     | [Code](../Baekjoon/Silver/2606.cs) |      |              |
+| 5567     | [결혼식](https://boj.kr/5567)                   |     | [Code](../Baekjoon/Silver/5567.cs) |      |              |
 | 11403    | [경로 찾기](https://boj.kr/11403)               |     |     |      |              |
 | 2660     | [회장뽑기](https://boj.kr/2660)                 |     |     |      |              |
 | 1389     | [케빈 베이컨의 6단계 법칙](https://boj.kr/1389) |     |     |      |              |
