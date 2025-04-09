@@ -1,4 +1,4 @@
-[Back(메인으로)](/README.md)  
+[Back(메인으로)](/README.md)
 
 # C#의 Collections에 대해 알아보자
 
@@ -505,6 +505,7 @@ Console.WriteLine(t3.A);  // ✅ 30 출력
 - 인덱스 기반 접근을 지원하지 않아 `IList<T>` 인터페이스를 구현하지 않습니다.
 - `LinkedListNode<T>` 객체를 통해 직접 노드를 조작할 수 있습니다.
 - `AddFirst()`, `AddLast()`, `RemoveFirst()`, `RemoveLast()`는 **O(1)**의 성능을 가짐.
+- 내부구현은 이중연결리스트로 구현되어있음.  
 
 #### 왜 Add는 함수리스트에 안뜸?
 
@@ -553,6 +554,7 @@ collection.Add(10);  // 정상적으로 동작
 
 - 스태깅 비어있는지 체크할때, `if(st.Peek() != null)`,`if(st.Count > 0)` 둘다 가능한데, 후자가 더 안전한 방법이다. 스택에는 참조타입, 값타입 둘다 받을수있다.
 - 스택이라면, Contains함수는 존재하지않아야할텐데 있.다...추상적개념인 스택만 보면 그렇지만, 내부적 구현상으로는 모든요소에 접근가능한 구조라서, Contains가 존재가능하고, 순차탐색을 하기때문에 O(N)성능을 보인다.
+- LIFO(Last In First Out)
 
 ## `Queue<T>`
 
@@ -585,6 +587,7 @@ collection.Add(10);  // 정상적으로 동작
 
 - 큐가 비어있는지 체크할때, `if(q.Peek() != null)`,`if(q.Count > 0)` 둘다 가능한데, 후자가 더 안전한 방법이다. 큐에는 참조타입, 값타입 둘다 받을수있다.
 - 스택에서와 마찬가지로 큐에서도 Contains가 구현되어있는데, 내부적 구현이 모든요소를 조회가 가능하기때문이고, 성능은 순차탐색으로 O(N)성능을 보인다.
+- FIFO(FirstInFirstOut).
 
 ## `HashSet<T>`
 
@@ -629,6 +632,7 @@ collection.Add(10);  // 정상적으로 동작
 ### 특이점
 
 - ICollection의 Add와 ISet의 Add,, Add가 2번 나오는데, ICollection의 Add는 명시적구현으로 숨겨진다.
+- 내부구현은 해시테이블로 이루어져있음. 
 
 #### 왜..? 숨길필요성은 어디서나온거지?
 
@@ -734,6 +738,8 @@ HashSet특성으로 중복이 없어야한다. 그래서 추가가 실패되었�
 | `SetEquals(IEnumerable<T> other)`           | 동일한 요소를 포함하는지 확인           | `O(n)`      |
 
 ### 특이점
+내부구현이 RB트리 기반으로, 중복없는 정렬된 집합이다.  
+
 
 ## `SortedDictionary<TKey, TValue>`
 
@@ -765,6 +771,12 @@ HashSet특성으로 중복이 없어야한다. 그래서 추가가 실패되었�
 | ----------------------------------------- | ------------------------------ | ----------- |
 | `TryGetValue(TKey key, out TValue value)` | 키에 대한 값을 안전하게 가져옴 | `O(log n)`  |
 
+### SortedDictionary란?
+우선 Dictionary는 해시테이블로 구현이 되어있고, 해시테이블의 시간복잡도는 일반적으로 O(1)이지만, 최악의 경우는 O(N)입니다.  
+하지만 SortedDictionary는 모든케이스에 대해서 O(LogN) 입니다.  
+SortedDictionary는 내부구현이 RB트리로 구현되어있는데, RB트리는 모든케이스에 대해 O(LogN)의 시간복잡도를 가지기 때문입니다.  
+
+
 ### 특이점
 
 - ContainsKey는 O(LogN), ContainsValue는 O(N)
@@ -786,6 +798,10 @@ HashSet특성으로 중복이 없어야한다. 그래서 추가가 실패되었�
 | `UnorderedItems`                                | 내부 배열을 반환 (순서 보장 X)                 | **O(n)**                  |
 | `EnsureCapacity(int capacity)`                  | 내부 저장소 크기를 확장                        | **O(n)** (재할당 발생 시) |
 | `TrimExcess()`                                  | 내부 저장소 크기를 `Count`에 맞게 줄임         | **O(n)**                  |
+
+## 기본동작은 최소힙
+
+우선순위가 낮은숫자가 먼저나옴. 힙구조
 
 ### 특이점
 
