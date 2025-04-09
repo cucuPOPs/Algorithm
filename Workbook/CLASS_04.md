@@ -2,7 +2,7 @@
 
 # CLASS_04 - 48
 
-![100%](https://progress-bar.xyz/1/?scale=48&title=progress&width=500&color=babaca&suffix=/48)
+![100%](https://progress-bar.xyz/2/?scale=48&title=progress&width=500&color=babaca&suffix=/48)
 
 | 문제번호 | 문제제목                                            | C++ | C#  | 회고 | 리마인드✔️❓ |
 | -------- | --------------------------------------------------- | --- | --- | ---- | ------------ |
@@ -19,7 +19,7 @@
 | 1932     | [정수 삼각형](https://boj.kr/1932)                  |     |     |      |              |
 | 1967     | [트리의 지름](https://boj.kr/1967)                  |     |     |      |              |
 | 1987     | [알파벳](https://boj.kr/1987)                       |     |     |      |              |
-| 1991     | [트리 순회](https://boj.kr/1991)                    |     |     |      |              |
+| 1991     | [트리 순회](https://boj.kr/1991)                    |     | [Code](../Baekjoon/Silver/1991.cs) | [Memo](../Baekjoon/Silver/1991.md) |              |
 | 2096     | [내려가기](https://boj.kr/2096)                     |     |     |      |              |
 | 2206     | [벽 부수고 이동하기](https://boj.kr/2206)           |     |     |      |              |
 | 2448     | [별 찍기 - 11](https://boj.kr/2448)                 |     |     |      |              |
