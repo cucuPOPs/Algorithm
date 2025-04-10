@@ -11,7 +11,7 @@
 | [class_02](./CLASS_02.md) | ![100%](https://progress-bar.xyz/40/?scale=40&title=progress&width=500&color=babaca&suffix=/40) |
 | [class_03](./CLASS_03.md) | ![100%](https://progress-bar.xyz/10/?scale=48&title=progress&width=500&color=babaca&suffix=/48) |
 | [class_04](./CLASS_04.md) | ![100%](https://progress-bar.xyz/2/?scale=48&title=progress&width=500&color=babaca&suffix=/48) |
-| [class_05](./CLASS_05.md) | ![100%](https://progress-bar.xyz/0/?scale=48&title=progress&width=500&color=babaca&suffix=/48) |
+| [class_05](./CLASS_05.md) | ![100%](https://progress-bar.xyz/1/?scale=48&title=progress&width=500&color=babaca&suffix=/48) |
 | [class_06](./CLASS_06.md) | ![100%](https://progress-bar.xyz/0/?scale=48&title=progress&width=500&color=babaca&suffix=/48) |
 | [class_07](./CLASS_07.md) | ![100%](https://progress-bar.xyz/0/?scale=48&title=progress&width=500&color=babaca&suffix=/48) |
 | [class_08](./CLASS_08.md) | ![100%](https://progress-bar.xyz/0/?scale=48&title=progress&width=500&color=babaca&suffix=/48) |
@@ -46,11 +46,11 @@
 | [그래프](./BARKINGDOG_18.md)                      | ![100%](https://progress-bar.xyz/4/?scale=13&title=progress&width=500&color=babaca&suffix=/13) |
 | [트리](./BARKINGDOG_19.md)                        | ![100%](https://progress-bar.xyz/2/?scale=13&title=progress&width=500&color=babaca&suffix=/13) |
 | [위상 정렬](./BARKINGDOG_1A.md)                   | ![100%](https://progress-bar.xyz/0/?scale=7&title=progress&width=500&color=babaca&suffix=/7)   |
-| [최소 신장 트리](./BARKINGDOG_1B.md)              | ![100%](https://progress-bar.xyz/0/?scale=9&title=progress&width=500&color=babaca&suffix=/9)   |
+| [최소 신장 트리](./BARKINGDOG_1B.md)              | ![100%](https://progress-bar.xyz/1/?scale=9&title=progress&width=500&color=babaca&suffix=/9)   |
 | [플로이드 알고리즘](./BARKINGDOG_1C.md)           | ![100%](https://progress-bar.xyz/0/?scale=15&title=progress&width=500&color=babaca&suffix=/15) |
 | [다익스트라 알고리즘](./BARKINGDOG_1D.md)         | ![100%](https://progress-bar.xyz/0/?scale=14&title=progress&width=500&color=babaca&suffix=/14) |
 | [KMP](./BARKINGDOG_1E.md)                         | ![100%](https://progress-bar.xyz/0/?scale=8&title=progress&width=500&color=babaca&suffix=/8)   |
 | [트라이](./BARKINGDOG_1F.md)                      | ![100%](https://progress-bar.xyz/0/?scale=10&title=progress&width=500&color=babaca&suffix=/10) |
 | [문자열 기초](./BARKINGDOG_APPENDIX_A.md)         | ![100%](https://progress-bar.xyz/0/?scale=16&title=progress&width=500&color=babaca&suffix=/16) |
 | [비트마스킹](./BARKINGDOG_APPENDIX_C.md)          | ![100%](https://progress-bar.xyz/0/?scale=7&title=progress&width=500&color=babaca&suffix=/7)   |
-| [Union-Find](./BARKINGDOG_APPENDIX_D.md)          | ![100%](https://progress-bar.xyz/0/?scale=9&title=progress&width=500&color=babaca&suffix=/9)   |
+| [Union-Find](./BARKINGDOG_APPENDIX_D.md)          | ![100%](https://progress-bar.xyz/1/?scale=9&title=progress&width=500&color=babaca&suffix=/9)   |

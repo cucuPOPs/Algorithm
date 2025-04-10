@@ -2,12 +2,12 @@
 
 # CLASS_05 - 48
 
-![100%](https://progress-bar.xyz/0/?scale=48&title=progress&width=500&color=babaca&suffix=/48)
+![100%](https://progress-bar.xyz/1/?scale=48&title=progress&width=500&color=babaca&suffix=/48)
 
 | 문제번호 | 문제제목                                             | C++ | C#  | 회고 | 리마인드✔️❓ |
 | -------- | ---------------------------------------------------- | --- | --- | ---- | ------------ |
 | 1005     | [ACM Craft](https://boj.kr/1005)                     |     |     |      |              |
-| 1197     | [최소 스패닝 트리](https://boj.kr/1197)              |     |     |      |              |
+| 1197     | [최소 스패닝 트리](https://boj.kr/1197)              |     | [Code](../Baekjoon/Gold/1197.cs) | [Memo](../Baekjoon/Gold/1197.md) |              |
 | 1202     | [보석 도둑](https://boj.kr/1202)                     |     |     |      |              |
 | 1509     | [팰린드롬 분할](https://boj.kr/1509)                 |     |     |      |              |
 | 1562     | [계단 수](https://boj.kr/1562)                       |     |     |      |              |

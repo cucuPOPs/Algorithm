@@ -3,11 +3,11 @@
 # BARKINGDOG_APPENDIX_D - 9
 
 [Union-Find](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/Appendix%20D.md)
-![100%](https://progress-bar.xyz/0/?scale=9&title=progress&width=500&color=babaca&suffix=/9)
+![100%](https://progress-bar.xyz/1/?scale=9&title=progress&width=500&color=babaca&suffix=/9)
 
 | 문제번호 | 문제제목                                          | C++ | C#  | 회고 | 리마인드✔️❓ |
 | -------- | ------------------------------------------------- | --- | --- | ---- | ------------ |
-| 1717     | [집합의 표현](https://boj.kr/1717)                |     |     |      |              |
+| 1717     | [집합의 표현](https://boj.kr/1717)                |     | [Code](../Baekjoon/Gold/1717.cs) |      |              |
 | 7511     | [소셜 네트워킹 어플리케이션](https://boj.kr/7511) |     |     |      |              |
 | 1976     | [여행 가자](https://boj.kr/1976)                  |     |     |      |              |
 | 20040    | [사이클 게임](https://boj.kr/20040)               |     |     |      |              |
