@@ -2,7 +2,7 @@
 
 # CLASS_04 - 48
 
-![100%](https://progress-bar.xyz/4/?scale=48&title=progress&width=500&color=babaca&suffix=/48)
+![100%](https://progress-bar.xyz/5/?scale=48&title=progress&width=500&color=babaca&suffix=/48)
 
 | 문제번호 | 문제제목                                            | C++ | C#  | 회고 | 리마인드✔️❓ |
 | -------- | --------------------------------------------------- | --- | --- | ---- | ------------ |
@@ -36,7 +36,7 @@
 | 11444    | [피보나치 수 6](https://boj.kr/11444)               |     |     |      |              |
 | 11660    | [구간 합 구하기 5](https://boj.kr/11660)            |     |     |      |              |
 | 11725    | [트리의 부모 찾기](https://boj.kr/11725)            |     | [Code](../Baekjoon/Silver/11725.cs) |      |              |
-| 11779    | [최소비용 구하기 2](https://boj.kr/11779)           |     |     |      |              |
+| 11779    | [최소비용 구하기 2](https://boj.kr/11779)           |     | [Code](../Baekjoon/Gold/11779.cs) |      |              |
 | 12851    | [숨바꼭질 2](https://boj.kr/12851)                  |     |     |      |              |
 | 12865    | [평범한 배낭](https://boj.kr/12865)                 |     |     |      |              |
 | 13172    | [Σ](https://boj.kr/13172)                           |     |     |      |              |

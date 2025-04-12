@@ -3,12 +3,12 @@
 # BARKINGDOG_1D - 14
 
 [다익스트라 알고리즘](https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook/0x1D.md)
-![100%](https://progress-bar.xyz/1/?scale=14&title=progress&width=500&color=babaca&suffix=/14)
+![100%](https://progress-bar.xyz/2/?scale=14&title=progress&width=500&color=babaca&suffix=/14)
 
 | 문제번호 | 문제제목                                          | C++ | C#  | 회고 | 리마인드✔️❓ |
 | -------- | ------------------------------------------------- | --- | --- | ---- | ------------ |
 | 1753     | [최단경로](https://boj.kr/1753)                   |     | [Code](../Baekjoon/Gold/1753.cs) |      | ✔️             |
-| 11779    | [최소비용 구하기 2](https://boj.kr/11779)         |     |     |      | ✔️             |
+| 11779    | [최소비용 구하기 2](https://boj.kr/11779)         |     | [Code](../Baekjoon/Gold/11779.cs) |      | ✔️             |
 | 1238     | [파티](https://boj.kr/1238)                       |     |     |      |              |
 | 1504     | [특정한 최단 경로](https://boj.kr/1504)           |     |     |      |              |
 | 1916     | [최소비용 구하기](https://boj.kr/1916)            |     |     |      |              |
