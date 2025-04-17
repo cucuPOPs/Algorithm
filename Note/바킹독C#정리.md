@@ -360,4 +360,17 @@ Array.Fill(dist, -1); // 거리 초기화 시 유용
 
 # Appendix_C 비트마스킹
 
+c++에서는, 정의되지않은 동작이라, 환경마다 다른결과가 나올수있음.
+C#에서는, 안전하게 n % 비트수 처리됨 (정의된 동작)
+```C#
+int x = 1;
+int y = x << 35; // 의도: 엄청 큰 값
+Console.WriteLine(y); // 실제로는 x << 3 (35 % 32)
+
+long x = 1L;
+long y = x << 64;   // 실제로는 x << 0 (64 % 64)
+long z = x << 65;   // 실제로는 x << 1
+
+```
+
 # Appendix_D Union-Find
